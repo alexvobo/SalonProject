@@ -1,8 +1,8 @@
 {
-  "title": "Stylish Portfolio",
-  "name": "startbootstrap-stylish-portfolio",
+  "title": "American Beauty Salons",
+  "name": "american-beauty-salons",
   "version": "4.0.0-beta",
-  "description": "A stylish portfolio HTML template built with Bootstrap",
+  "description": "A stylish portfolio built with Bootstrap",
   "keywords": [
     "css",
     "sass",
@@ -11,30 +11,32 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/stylish-portfolio",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues",
-    "email": "feedback@startbootstrap.com"
+    "url": "",
+    "email": ""
   },
   "license": "MIT",
-  "author": "Start Bootstrap",
+  "author": "",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    ""
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
+    "url": ""
+  },
+  "scripts": {
+    "gulp": "gulp dev"
+
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "browser-sync": "^2.27.10",
     "font-awesome": "4.7.0",
+    "gulp": "^4.0.2",
     "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1",
     "natives": "^1.1.6",
     "popper.js": "^1.14.4"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.26.13",
-    "gulp": "^3.9.1"
   }
 }
