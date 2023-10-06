@@ -1,161 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Head -->
 
-<!-- Head -->
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106955457-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-106955457-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments)
-        }
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
-        gtag('js', new Date());
+      gtag("js", new Date());
 
-        gtag('config', 'UA-106955457-1');
+      gtag("config", "UA-106955457-1");
     </script>
 
-    <meta charset="utf-8">
-    <meta name="robots" content="noodp,noydir" />
+    <meta charset="utf-8" />
+    <meta
+      name="robots"
+      content="noodp,noydir"
+    />
     <title>American Beauty Salons</title>
-    <meta name="description" content="Conveniently located in the heart of NYC’s Financial District,
+    <meta
+      name="description"
+      content="Conveniently located in the heart of NYC’s Financial District,
             American Beauty
-            provides affordable luxury to men and women in an elegant, professional environment.">
-    <meta name="author" content="Alex Vobornov www.alexvobo.com">
+            provides affordable luxury to men and women in an elegant, professional environment."
+    />
+    <meta
+      name="author"
+      content="Alex Vobornov www.alexvobo.com"
+    />
 
     <!-- Tab Icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="/site.webmanifest"
+    />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster"
+    />
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-        rel="stylesheet" type="text/css">
+    <link
+      href="vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
+  <!-- Body -->
 
-<!-- Body -->
-
-<body>
-    <!-- Moving Modal with Carousel -->
-    <div id="movingPopup" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p class="pl-1" style="font-size: 25px">
-                        Hi everyone,
-                    </p>
-                    <p class="text-center" style="font-size: 25px">Our location is:
-                    </p>
-                    <p class="text-center" style="font-size: 25px"> <a target="_blank"
-                            href="https://goo.gl/maps/8erzR58SsyZHJpbM7">100
-                            William St. New York, NY 10038</a></p>
-
-                    <p class="text-center" style="font-size: 25px;">I hope to see you in my beautiful salon!</p>
-                    <p class="text-left pl-4" style="font-size: 25px;">- Lana</p>
-                </div>
-
-          <img src="img/1.jpg" class="rounded img-thumbnail">
-                <div class="modal-footer ">
-                    <button type="button" class="btn btn-secondary w-25 mx-auto " data-dismiss="modal">Close</button>
-
-                </div>
+  <body>
+    <div class="row">
+      <!-- Moving Modal with Carousel -->
+      <div
+        id="movingPopup"
+        class="modal fade"
+        tabindex="-1"
+        role="dialog"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered"
+          role="document"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Welcome to my place!</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
+            <div class="modal-body">
+              <!-- Row for text content -->
+              <div class="row">
+                <div class="col-12">
+                  <p class="text-center">Our location is:</p>
+                  <p class="text-center">
+                    <a
+                      target="_blank"
+                      href="https://goo.gl/maps/8erzR58SsyZHJpbM7"
+                    >
+                      100 William St. New York, NY 10038
+                    </a>
+                  </p>
+                  <p class="text-center pl-4">- Lana</p>
+                </div>
+              </div>
+              <!-- Row for images -->
+              <div
+                class="d-flex flex-row justify-content-center mx-auto text-center px-2"
+              >
+                <img
+                  src="img/1.jpg"
+                  class="img-fluid rounded-left"
+                  alt="salon"
+                />
+                <img
+                  src="img/lana.jpeg"
+                  class="img-fluid rounded-right"
+                  alt="lana"
+                />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
-        <i class="fa fa-bars"></i>
+    <a
+      id="menu-toggle"
+      href="#"
+      class="btn btn-dark btn-lg toggle"
+    >
+      <i class="fa fa-bars"></i>
     </a>
     <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
-                <i class="fa fa-times"></i>
-            </a>
-            <li class="sidebar-brand">
-                <a class="js-scroll-trigger" href="#top">
-                    <div class="main-red">American Beauty</div>
-                </a>
-            </li>
-            <li>
-                <a class="js-scroll-trigger" href="#top">
-                    <div class="light">Home</div>
-                </a>
-            </li>
-            <!-- <li>
+      <ul class="sidebar-nav">
+        <a
+          id="menu-close"
+          href="#"
+          class="btn btn-light btn-lg pull-right toggle"
+        >
+          <i class="fa fa-times"></i>
+        </a>
+        <li class="sidebar-brand">
+          <a
+            class="js-scroll-trigger"
+            href="#top"
+          >
+            <div class="main-red">American Beauty</div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="js-scroll-trigger"
+            href="#top"
+          >
+            <div class="light">Home</div>
+          </a>
+        </li>
+        <!-- <li>
                 <a class="js-scroll-trigger" href="#about">
                     <div class="light">About</div>
                 </a>
             </li> -->
-            <li>
-                <a class="js-scroll-trigger" href="#gallery">
-                    <div class="light">Gallery</div>
-                </a>
-            </li>
-            <!-- <li>
+        <li>
+          <a
+            class="js-scroll-trigger"
+            href="#gallery"
+          >
+            <div class="light">Gallery</div>
+          </a>
+        </li>
+        <!-- <li>
                 <a class="js-scroll-trigger" href="#services">
                     <div class="light">Services</div>
                 </a>
             </li> -->
-            <li>
-                <a class="js-scroll-trigger" href="#contact" onclick=$("#menu-close").click();>
-                    <div class="light">Contact</div>
-                </a>
-            </li>
-        </ul>
+        <li>
+          <a
+            class="js-scroll-trigger"
+            href="#contact"
+            onclick="$('#menu-close').click();"
+          >
+            <div class="light">Contact</div>
+          </a>
+        </li>
+      </ul>
     </nav>
 
-
     <!-- Header -->
-    <header class="header" id="top">
-        <div class="text-vertical-center">
-            <h1 class="light light-stroked lobster">American Beauty Salons</h1>
-            <br>
-            <a href="https://ab.simplybook.me/v2/" target="_blank"
-                class="btn btn-light btn-book btn-lg js-scroll-trigger"><b
-                    class="light light-stroked lobster">Book</b></a>
-        </div>
+    <header
+      class="header"
+      id="top"
+    >
+      <div class="text-vertical-center">
+        <h1 class="light light-stroked lobster">American Beauty Salons</h1>
+        <br />
+        <a
+          href="https://ab.simplybook.me/v2/"
+          target="_blank"
+          class="btn btn-light btn-book btn-lg js-scroll-trigger"
+          ><b class="light light-stroked lobster">Book</b></a
+        >
+      </div>
     </header>
 
     <!-- Gallery -->
     <section id="gallery">
-        <!-- LightWidget WIDGET -->
-        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-        <iframe src="https://cdn.lightwidget.com/widgets/dda3af6f8fa55eb7baa5fb48acfaa410.html" scrolling="no"
-            allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-        <br>
+      <!-- LightWidget WIDGET -->
+      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+      <iframe
+        src="https://cdn.lightwidget.com/widgets/dda3af6f8fa55eb7baa5fb48acfaa410.html"
+        scrolling="no"
+        allowtransparency="true"
+        class="lightwidget-widget"
+        style="width: 100%; border: 0; overflow: hidden"
+      ></iframe>
+      <br />
     </section>
 
-
     <!-- Map -->
-    <section id="contact" class="map">
-        <iframe
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDzw76uNc7ZCKbWaEqJzr2wFnl0ZYvCRjc&q=American+Beauty+Salons,+100+William+St,+New+York,+NY+10038"
-            width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <br />
-        <small>
-            <a
-                href="https://www.google.com/maps/embed/v1/place?key=AIzaSyDzw76uNc7ZCKbWaEqJzr2wFnl0ZYvCRjc&q=American+Beauty+Salons,+111+John+St,+New+York,+NY+10038"></a>
-        </small>
+    <section
+      id="contact"
+      class="map"
+    >
+      <iframe
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDzw76uNc7ZCKbWaEqJzr2wFnl0ZYvCRjc&q=American+Beauty+Salons,+100+William+St,+New+York,+NY+10038"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen
+      ></iframe>
+      <br />
+      <small>
+        <a
+          href="https://www.google.com/maps/embed/v1/place?key=AIzaSyDzw76uNc7ZCKbWaEqJzr2wFnl0ZYvCRjc&q=American+Beauty+Salons,+111+John+St,+New+York,+NY+10038"
+        ></a>
+      </small>
     </section>
 
     <!-- Bootstrap core JavaScript -->
@@ -168,63 +292,76 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/script.js"></script>
-</body>
+  </body>
 
-<!-- Footer -->
-<footer>
+  <!-- Footer -->
+  <footer>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-10 mx-auto text-center">
-                <h4>
-                    <strong class="main-red lobster">American Beauty Salons</strong>
-                </h4>
-                <a target="_blank" href="https://goo.gl/maps/8erzR58SsyZHJpbM7" style="text-decoration:none">
-                    <p>
-                        100 William St
-                        <br>New York, NY 10038</p>
-                </a>
-                <ul class="list-unstyled">
-                    <li>Monday - Friday: 10:00 AM - 8:00 PM</li>
-                    <li>Saturday: 11:00 AM - 7:00 PM</li>
-                    <li>Sunday: 11:00 AM - 6:00 PM</li>
-                    <br>
-                    <li>
-                        <i class="fa fa-phone fa-fw"></i>
-                        <a href="tel:+19292101542">+1 (929) 210 1542</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope-o fa-fw"></i>
-                        <a href="mailto:info.americanbeautysalons@gmail.com">info.americanbeautysalons@gmail.com</a>
-                    </li>
-                </ul>
-                <br>
-                <ul class="list-inline">
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/americanbeautysalons/">
-                            <i class="fa fa-facebook fa-fw fa-3x"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/americanbeautysalons/">
-                            <i class="fa fa-instagram fa-fw fa-3x"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://ab.simplybook.me/v2/" target="_blank">
-                            <i class="fa fa-calendar fa-fw fa-3x"></i>
-                        </a>
-                    </li>
-                </ul>
-                <hr class="small">
-                <p class="text-muted">Copyright &copy; American Beauty Salons</p>
-            </div>
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <h4>
+            <strong class="main-red lobster">American Beauty Salons</strong>
+          </h4>
+          <a
+            target="_blank"
+            href="https://goo.gl/maps/8erzR58SsyZHJpbM7"
+            style="text-decoration: none"
+          >
+            <p>
+              100 William St
+              <br />New York, NY 10038
+            </p>
+          </a>
+          <ul class="list-unstyled">
+            <li>Monday - Friday: 10:00 AM - 8:00 PM</li>
+            <li>Saturday: 11:00 AM - 7:00 PM</li>
+            <li>Sunday: 11:00 AM - 6:00 PM</li>
+            <br />
+            <li>
+              <i class="fa fa-phone fa-fw"></i>
+              <a href="tel:+19292101542">+1 (929) 210 1542</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope-o fa-fw"></i>
+              <a href="mailto:info.americanbeautysalons@gmail.com"
+                >info.americanbeautysalons@gmail.com</a
+              >
+            </li>
+          </ul>
+          <br />
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/americanbeautysalons/">
+                <i class="fa fa-facebook fa-fw fa-3x"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/americanbeautysalons/">
+                <i class="fa fa-instagram fa-fw fa-3x"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://ab.simplybook.me/v2/"
+                target="_blank"
+              >
+                <i class="fa fa-calendar fa-fw fa-3x"></i>
+              </a>
+            </li>
+          </ul>
+          <hr class="small" />
+          <p class="text-muted">Copyright &copy; American Beauty Salons</p>
         </div>
+      </div>
     </div>
-    <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
-        <i class="fa fa-chevron-up fa-fw fa-1x"></i>
+    <a
+      id="to-top"
+      href="#top"
+      class="btn btn-dark btn-lg js-scroll-trigger"
+    >
+      <i class="fa fa-chevron-up fa-fw fa-1x"></i>
     </a>
-</footer>
-
+  </footer>
 </html>
 
 <!-- Deprecated map url
