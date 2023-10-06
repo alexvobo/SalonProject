@@ -744,19 +744,6 @@ footer {
   hyphens: auto;
 }
 
-.img-fluid {
-  max-height: 300px; /* Adjust this value to change the image size */
-  min-width: 175px;
-  width: auto;
-}
-
-@media (max-width: 767px) {
-  .img-fluid {
-    width: 50%;
-    height: auto;
-  }
-}
-
 /*!* Main Services Box *!*/
 /*.list-group-item {*/
 /*height: 150px;*/
